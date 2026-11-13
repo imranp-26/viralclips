@@ -1,0 +1,7 @@
+yt-dlp
+youtube-transcript-api>=1.0.0
+mysql-connector-python
+python-dotenv
+Pillow
+# Optional (agar video mein subtitles na hon):
+# faster-whisper

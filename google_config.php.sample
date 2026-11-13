@@ -1,0 +1,13 @@
+<?php
+// Google Cloud Console se mile Client ID / Secret yahan daaliye (YOUTUBE_SETUP.md dekhiye)
+define('GOOGLE_CLIENT_ID', 'YAHAN-CLIENT-ID');
+define('GOOGLE_CLIENT_SECRET', 'YAHAN-CLIENT-SECRET');
+// Ye URL Google Cloud mein "Authorized redirect URI" se bilkul same hona chahiye
+define('GOOGLE_REDIRECT_URI', 'http://localhost/viralclips/yt_callback.php');
+
+// ---- Trending tab ke liye (YouTube API key, Google Cloud > Credentials > API key) ----
+// define('YOUTUBE_API_KEY', 'aapki-key');
+
+// ---- Instagram upload ke liye (INSTAGRAM_SETUP.md dekhiye) ----
+// Aapki site ka PUBLIC https link (tunnel). Instagram is link se clip khud download karta hai.
+// define('IG_PUBLIC_BASE_URL', 'https://aapka-naam.ngrok-free.app/viralclips');
